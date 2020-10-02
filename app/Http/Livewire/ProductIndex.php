@@ -14,6 +14,12 @@ class ProductIndex extends Component
 
     protected $updateQueryString = ['search'];
 
+    public function updatingSearch()
+    {
+
+        $this->resetPage();
+    }
+
     public function render()
     {
         if ($this->search) {
