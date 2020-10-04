@@ -6,7 +6,7 @@
             <img src="/assets/slider/slider1.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-            <img src="/assets/slider/slider1.png" class="d-block w-100" alt="...">
+            <img src="/assets/slider/slider2.png" class="d-block w-100" alt="...">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
