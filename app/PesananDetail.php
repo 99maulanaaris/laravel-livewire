@@ -6,6 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class PesananDetail extends Model
 {
+    protected $guarded = [];
+
     public function pesanan(){
         
         return $this->belongsTo(Pesanan::class);

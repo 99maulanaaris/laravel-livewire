@@ -1,5 +1,5 @@
 <div>
-      <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+      <nav class="navbar navbar-expand-md navbar-priamry bg-light text-white shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                    Jersey<strong>Pedia</strong>
@@ -20,7 +20,7 @@
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 @foreach ($ligas as $liga)
-                                <a class="dropdown-item" href="#">{{$liga->nama}}</a>
+                                <a class="dropdown-item" href="{{route('products.liga',$liga->id)}}">{{$liga->nama}}</a>
                                 @endforeach
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="{{route('products')}}">Semua Liga</a>
