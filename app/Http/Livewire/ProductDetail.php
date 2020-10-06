@@ -84,6 +84,8 @@ class ProductDetail extends Component
             'nomer' => $this->nomer,
         ]);
 
+        $this->emit('Keranjang');
+
         session()->flash('message', 'Sukses Masuk Kernjang');
         return redirect()->back();
     }
