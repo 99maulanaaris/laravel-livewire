@@ -12,7 +12,7 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
                          <li class="nav-item">
-                                <a class="nav-link" href="{{ route('home') }}">Home</a>
+                            <a class="nav-link" href="{{ route('home') }}">Home</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -25,6 +25,9 @@
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="{{route('products')}}">Semua Liga</a>
                             </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('history') }}">History</a>
                         </li>
                     </ul>
                     

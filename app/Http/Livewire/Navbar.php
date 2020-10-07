@@ -24,7 +24,11 @@ class Navbar extends Component
             $pesanan  = Pesanan::where('user_id', Auth::user()->id)->where('status', 0)->first();
 
             if ($pesanan) {
+                
                 $this->jumlah = PesananDetail::where('pesanan_id', $pesanan->id)->count();
+            } else {
+
+                $this->jumlah = 0;
             }
         }
     }
